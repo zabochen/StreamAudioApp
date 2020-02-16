@@ -34,7 +34,7 @@ class StreamManager(
 
     fun playOrPause(streamUrl: String) {
         streamService?.playOrPause(
-            streamUrl = streamUrl
+            url = streamUrl
         )
     }
 
